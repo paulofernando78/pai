@@ -1,22 +1,23 @@
 import "/src/css/construto.css";
+import "/src/global.css";
 
 export function loadConstructo() {
   const app = document.getElementById("app");
   /*html*/
   app.innerHTML = `
-    <div class="construto-container">
+    <div class="construto-container flex-align-center">
       <div class="tijolo t1">
         <div class="text-align-center line-break">
           <h1>CONSTRUTO</h1>
-          <h2>NO PRINCÍPIO ERA O PLASMA.</h2>
-          <h2>NO MEIO, O VERBO. NO FIM, A PALAVRA.</h2>
+          <h3>NO PRINCÍPIO ERA O PLASMA.</h3>
+          <h3>NO MEIO, O VERBO. NO FIM, A PALAVRA.</h3>
         </div>
-        <h3 class="text-align-right margin-top">“A natureza ama a senoide.”</h3>
+        <h4 class="text-align-right margin-top">“A natureza ama a senoide.”</h4>
       </div>
       <div>
         <span class="tijolo t4 bolder-border bold plasma">P L A S M A</span>
       </div>
-      <div class="align-middle">
+      <div class="flex-align-center">
         <div>
           <span class="tijolo t1 bolder-border bold">BIG BAN</span>
           <span class="tijolo t3">ORDEM</span>
@@ -89,7 +90,7 @@ export function loadConstructo() {
         </div>
       </div>
       <span class="tijolo t4 bolder-border bold">V E R B O</span>
-      <div class="align-middle">
+      <div class="flex-align-center">
         <div>
           <span class="tijolo t2">SOL</span>
           <span class="tijolo t3">LUZ</span>
@@ -156,7 +157,7 @@ export function loadConstructo() {
       <div>
       <span class="tijolo t4 bolder-border bold">P A L A V R A S</span>
       </div>
-      <div class="align-middle bold">
+      <div class="flex-align-center bold">
         <div>
           <div class="tijolo t2 bolder-border flex">
             <div class="vras">
