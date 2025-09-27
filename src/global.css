@@ -1,10 +1,10 @@
 @import "./css/imports.css";
 
 body {
-  background: lightgray;
-  color: black;
+  background: #252525;
+  color: white;
   margin: 10px;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .line-break {
@@ -40,7 +40,7 @@ body {
 .flex {
   display: flex;
   align-items: center;
-  gap: 15px
+  gap: 15px;
 }
 
 .nome {
@@ -48,5 +48,3 @@ body {
   display: flex;
   flex-direction: column;
 }
-
-

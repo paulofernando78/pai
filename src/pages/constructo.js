@@ -1,11 +1,11 @@
-import "/src/css/constructo.css";
+import "/src/css/construto.css";
 
 export function loadConstructo() {
   const app = document.getElementById("app");
   /*html*/
   app.innerHTML = `
     <div class="construto-container">
-      <div class="tijolo t1 title">
+      <div class="tijolo t1">
         <div class="text-align-center line-break">
           <h1>CONSTRUTO</h1>
           <h2>NO PRINCÍPIO ERA O PLASMA.</h2>
@@ -14,7 +14,7 @@ export function loadConstructo() {
         <h3 class="text-align-right margin-top">“A natureza ama a senoide.”</h3>
       </div>
       <div>
-        <span class="tijolo t4 bolder-border bold">P L A S M A</span>
+        <span class="tijolo t4 bolder-border bold plasma">P L A S M A</span>
       </div>
       <div class="align-middle">
         <div>
@@ -179,7 +179,7 @@ export function loadConstructo() {
         </div>
       </div>
       <div>
-        <span class="tijolo t4 bolder-border bold">P L A S M A</span>
+        <span class="tijolo t4 bolder-border bold plasma">P L A S M A</span>
       </div>
       <div class="nome">
         <span>José Francisco da Silva</span>
