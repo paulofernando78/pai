@@ -5,7 +5,7 @@ export function loadConstructo() {
   /*html*/
   app.innerHTML = `
     <div class="construto-container">
-      <div class="tijolo t1 title line-break">
+      <div class="tijolo t1 title">
         <div class="text-align-center line-break">
           <h1>CONSTRUTO</h1>
           <h2>NO PRINCÍPIO ERA O PLASMA.</h2>
@@ -158,18 +158,20 @@ export function loadConstructo() {
       </div>
       <div class="align-middle bold">
         <div>
-          <div class="tijolo t2 bolder-border">
-            <span
-              >vras palavras palavras palavras palavras palav
-            </span>
+          <div class="tijolo t2 bolder-border flex">
+            <div class="vras">
+              <span>vras palavras palavras</span>
+              <span>palavras palavras palav</span>
+            </div>
             <span>MIL DICIONÁRIOS</span>
-            <span> palavras-nuvem palavras-pedra </span>
+            <div class="vras">
+              <span>palavras-nuvem</span>
+              <span>palavras-pedra</span>
+            </div>
           </div>
         </div>
         <div class="bold">
-          <span class="tijolo t1"
-            >BLOCOS E REJUNTAMENTO Tijolos e argamassa CONSTRUIR O MUNDO</span
-          >
+          <span class="tijolo t1">BLOCOS E REJUNTAMENTO Tijolos e argamassa CONSTRUIR O MUNDO</span>
         </div>
         <div>
           <span class="tijolo t2 bold">VIVO ARQUITETO O MUNDO COM PALAVRAS.</span>

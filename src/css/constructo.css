@@ -1,18 +1,18 @@
 .construto-container {
-  max-width: max-content;
-  margin: 0 auto;
+  max-width: 1000px;
+  /* overflow-x: auto; */
+
+  height: 100vh;
+  height: 100dvh;
+  /* overflow-y: auto; */
 
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
+  align-items: center;
   gap: 25px;
   cursor: grab;
   user-select: none;
   -webkit-user-drag: none;
-
-  max-height: 80vh;
-  overflow-x: auto;
-  overflow-y: auto;
 }
 
 .construto-container.active {
@@ -71,4 +71,16 @@
   transform: rotate(180deg);
   position: relative;
   bottom: 1px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 15px
+}
+
+.vras {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
