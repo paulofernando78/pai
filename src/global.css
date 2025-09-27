@@ -1,0 +1,18 @@
+@import "./css/imports.css";
+
+body {
+  background: lightgray;
+  color: black;
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.line-break {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.bold {
+  font-weight: bold;
+}
