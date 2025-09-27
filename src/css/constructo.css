@@ -42,15 +42,15 @@
 .tijolo {
   display: inline-block;
   border: 4px solid var(--yellow-7);
-  border-radius: 2px;
+  border-radius: 1px;
   padding: 4px;
   outline: 2px solid white;
+  margin-bottom: 2px;
   /* outline-offset: -1px; */
 }
 
 .bolder-border {
   border: 5px solid black;
-  padding: 4px;
 }
 
 .left-arrow {

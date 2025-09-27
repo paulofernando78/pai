@@ -1,4 +1,4 @@
-import "/src/css/constructo.css"
+import "/src/css/constructo.css";
 
 export function loadConstructo() {
   const app = document.getElementById("app");
@@ -23,7 +23,7 @@ export function loadConstructo() {
         </div>
         <div>
           <span class="tijolo t1">COSMOLOGIA</span>
-          <span class="tijolo t3">UNVERSO</span>
+          <span class="tijolo t3">UNIVERSO</span>
           <span class="tijolo t2">BÍBLIA</span>
           <span class="tijolo t4">TEOLOGIA</span>
           <span class="tijolo t1">DEUS</span>
@@ -74,10 +74,15 @@ export function loadConstructo() {
           <span class="tijolo t2">VIA LÁCTEA</span>
         </div>
         <div>
-          <span class="tijolo t1"
-            >MATÉRIA <span class="left-arrow">&#10140;</span> ENTROPIA &#10140;
-            POSITIVA</span
-          >
+          <span class="tijolo t3 bold"
+            >MATÉRIA <span class="left-arrow">&#10140;</span> ESCURA &#10140;
+            POSITIVA</span>
+          <span class="tijolo t4 bold">E=mc<sup>2</sup></span>
+        </div>
+        <div>
+          <span class="tijolo t1 bold"
+            >NEGATIVA <span class="left-arrow">&#10140;</span> ENTROPIA &#10140;
+            POSITIVA</span>
           <span></span>
         </div>
       </div>
@@ -92,7 +97,7 @@ export function loadConstructo() {
           <span class="tijolo t1">PLANTA</span>
         </div>
         <div>
-          <span class="tijolo t1 bolder-border">MITOCÔNDRIA COROPLASTO & AÇUCAR</span>
+          <span class="tijolo t1 bolder-border bold">MITOCÔNDRIA & ATP <span class="left-arrow">&#10140;</span>&#10140; COROPLASTO & AÇUCAR
         </div>
         <div>
           <span class="tijolo t3">BICHO</span>
@@ -116,7 +121,7 @@ export function loadConstructo() {
         </div>
         <div>
           <span class="tijolo t1">SUBSTANTIVO</span>
-          <span class="tijolo t4 bolder-border">EU TE ELE</span>
+          <span class="tijolo t4 bolder-border bold">EU TE ELE</span>
           <span class="tijolo t3">verbo</span>
           <span class="tijolo t2">ADJETIVO</span>
           <span class="tijolo t1">ISSO E AQUILO</span>
@@ -168,8 +173,8 @@ export function loadConstructo() {
         </div>
       </div>
       <div>
-        <span class="tijolo t4 bolder-border">PLASMA</span>
+        <span class="tijolo t4 bolder-border bold">P L A S M A</span>
       </div>
     </div>
-  `
+  `;
 }
