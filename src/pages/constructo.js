@@ -1,15 +1,21 @@
 import "/src/css/constructo.css";
 
 export function loadConstructo() {
+  const container = document.querySelector(".construto-container")
+
+  
+
   const app = document.getElementById("app");
   /*html*/
   app.innerHTML = `
-    <div class="container">
-      <div class="card title line-break">
-        <h1 class="">CONSTRUCTO</h1>
-        <h2>NO PRINCÍPIO ERA O PLASMA.</h2>
-        <h2>NO MEIO, O VERBO. NO FIM, A PALAVRA</h2>
-        <h3 class="text-right">“A natureza ama a senoide.”</h3>
+    <div class="construto-container">
+      <div class="tijolo t1 title line-break">
+        <div class="text-align-center line-break">
+          <h1>CONSTRUTO</h1>
+          <h2>NO PRINCÍPIO ERA O PLASMA.</h2>
+          <h2>NO MEIO, O VERBO. NO FIM, A PALAVRA.</h2>
+        </div>
+        <h3 class="text-align-right margin-top">“A natureza ama a senoide.”</h3>
       </div>
       <div>
         <span class="tijolo t4 bolder-border bold">P L A S M A</span>
@@ -97,7 +103,7 @@ export function loadConstructo() {
           <span class="tijolo t1">PLANTA</span>
         </div>
         <div>
-          <span class="tijolo t1 bolder-border bold">MITOCÔNDRIA & ATP <span class="left-arrow">&#10140;</span>&#10140; COROPLASTO & AÇUCAR
+          <span class="tijolo t1 bolder-border bold">MITOCÔNDRIA & ATP <span class="left-arrow">&#10140;</span>&#10140; COROPLASTO & AÇUCAR</span>
         </div>
         <div>
           <span class="tijolo t3">BICHO</span>
@@ -121,7 +127,7 @@ export function loadConstructo() {
         </div>
         <div>
           <span class="tijolo t1">SUBSTANTIVO</span>
-          <span class="tijolo t4 bolder-border bold">EU TE ELE</span>
+          <span class="tijolo t4 bolder-border bold">EU TU ELE</span>
           <span class="tijolo t3">verbo</span>
           <span class="tijolo t2">ADJETIVO</span>
           <span class="tijolo t1">ISSO E AQUILO</span>
@@ -133,10 +139,10 @@ export function loadConstructo() {
           <span class="tijolo t4">CONSCIÊNCIA</span>
         </div>
         <div>
-          <span class="tijolo t2 bolder-border">VACUIDADE: FENÔMENO MENTE EU</span>
+          <span class="tijolo t2 bolder-border bold">VACUIDADE: FENÔMENO MENTE EU</span>
         </div>
         <div>
-          <span class="tijolo t1 bolder-border"
+          <span class="tijolo t1 bolder-border bold"
             >INCONSCIENTE / SIMBÓLICO IMAGINÁRIO REAL</span
           >
         </div>
@@ -151,9 +157,11 @@ export function loadConstructo() {
           <span class="tijolo t1">SINTAXE</span>
         </div>
       </div>
+      <div>
+      <span class="tijolo t4 bolder-border bold">P A L A V R A S</span>
+      </div>
       <div class="align-middle bold">
         <div>
-          <span class="tijolo t4 bolder-border">P A L A V R A S</span>
           <div class="tijolo t2 bolder-border">
             <span
               >vras palavras palavras palavras palavras palav

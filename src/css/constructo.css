@@ -1,4 +1,4 @@
-.container {
+.construto-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -6,6 +6,7 @@
 }
 
 .align-middle {
+  width: max-content;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,10 +14,6 @@
 
 .title {
   width: max-content;
-}
-
-.text-right {
-  text-align: right;
 }
 
 .t1 {
@@ -45,8 +42,7 @@
   border-radius: 1px;
   padding: 4px;
   outline: 2px solid white;
-  margin-bottom: 2px;
-  /* outline-offset: -1px; */
+  margin: 2px 0 1px -1px;
 }
 
 .bolder-border {
