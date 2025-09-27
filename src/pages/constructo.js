@@ -181,6 +181,10 @@ export function loadConstructo() {
       <div>
         <span class="tijolo t4 bolder-border bold">P L A S M A</span>
       </div>
+      <div class="nome">
+        <span>José Francisco da Silva</span>
+        <span>Bahia, véspera do Natal, 2024</span>
+      </div>
     </div>
   `;
 
