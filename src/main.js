@@ -1,6 +1,12 @@
-import { loadConstructo } from "./js/construto";
+import { loadConstruto } from "./js/construto";
+import { loadControl } from "./js/control";
 
 document.getElementById("constructoLink").addEventListener("click", (e) => {
   e.preventDefault();
-  loadConstructo();
+  loadConstruto();
+});
+
+document.getElementById("controlLink").addEventListener("click", (e) => {
+  e.preventDefault();
+  loadControl();
 });

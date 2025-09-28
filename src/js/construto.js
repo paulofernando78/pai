@@ -1,11 +1,10 @@
 import "/src/css/construto.css";
 import "/src/global.css";
+import { renderPage } from "../utils/renderHTML";
 import construtoHtml from "../pages/construto.html?raw";
 
-export function loadConstructo() {
-  const app = document.getElementById("app");
-  /*html*/
-  app.innerHTML = construtoHtml;
+export function loadConstruto() {
+  renderPage(construtoHtml);
 
   const container = document.querySelector(".construto-container");
 
@@ -21,22 +20,23 @@ export function loadConstructo() {
     scrollTop = container.scrollTop;
   });
 
-  container.addEventListener("mouseup", () => {
+  function stopDragging() {
     isDown = false;
     container.classList.remove("active");
-  });
+  }
 
-  container.addEventListener("mouseleave", () => {
-    isDown = false;
-    container.classList.remove("active");
-  });
+  container.addEventListener("mouseup", stopDragging);
+  container.addEventListener("mouseleave", stopDragging);
 
   container.addEventListener("mousemove", (e) => {
     if (!isDown) return;
     e.preventDefault();
     const x = e.pageX - container.offsetLeft;
     const y = e.pageY - container.offsetTop;
-    container.scrollLeft = scrollLeft - (x - startX);
-    container.scrollTop = scrollTop - (y - startY);
+
+    const walkX = x - startX
+    const walkY = y - startY
+    container.scrollLeft = scrollLeft - walkX;
+    container.scrollTop = scrollTop - walkY;
   });
 }
