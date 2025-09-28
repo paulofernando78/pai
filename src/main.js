@@ -1,5 +1,6 @@
-import { loadConstructo } from "./pages/constructo";
+import { loadConstructo } from "./js/construto";
 
-document.getElementById("linkConstructo").addEventListener("click", () => {
+document.getElementById("constructoLink").addEventListener("click", (e) => {
+  e.preventDefault();
   loadConstructo();
 });

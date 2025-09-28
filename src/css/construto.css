@@ -1,6 +1,7 @@
 .construto-container {
-  width: max-content;
+  width: 100%;
   overflow-x: auto;
+  border: 1px solid red;
 
   height: 100vh;
   height: 100dvh;
@@ -21,14 +22,7 @@
   cursor: grabbing;
 }
 
-.flex-align-center {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .plasma {
-
   animation: light 5s infinite ease-in;
 }
 
@@ -43,6 +37,21 @@
     box-shadow: 0 0 15px 0px var(--yellow-3);
   }
   
+}
+
+.flex-align-center {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.block-span {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;     /* impede quebra dos spans */
+  width: max-content;    /* ocupa só o necessário para gerar overflow-x */
+  white-space: nowrap;   /* reforça: spans não quebram */
 }
 
 .t1 {
@@ -68,7 +77,7 @@
   border-radius: 1px;
   padding: 4px;
   outline: 2px solid white;
-  margin: 2px 0 1px -1px;
+  margin: 2px 0 1px 3px;
 }
 
 .t1,
