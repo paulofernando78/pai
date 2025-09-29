@@ -19,6 +19,12 @@
 
 .title {
   font-size: 1.9rem;
+  text-shadow: 1px 1px 5px;
+}
+
+.core {
+  display: grid;
+  place-items: center;
 }
 
 .circle {
@@ -27,14 +33,14 @@
   border-radius: 50%;
   border: 1px solid white;
   padding: 5px;
-  background: var(--blue-2);
+  background: radial-gradient(var(--blue-1), var(--blue-4));
   display: grid;
   place-items: center;
   position: relative;
 }
 
 .circle svg {
-  width: 100%;
+  width: auto;
   height: 100%;
 }
 
@@ -50,10 +56,14 @@
 .inner-circle,
 .outer-circle {
   font-family: "Comic Relief", system-ui;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   width: 100px;
   height: 100%;
 
+}
+
+.this {
+  font-size: 1.7rem;
 }
 
 .inner-circle span, .outer-circle span {

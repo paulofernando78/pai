@@ -1,5 +1,5 @@
-import { loadConstruto } from "./js/construto";
-import { loadMyControl } from "./js/my-control";
+import { loadConstruto } from "./js/pages/construto";
+import { loadMyControl } from "./js/pages/my-control";
 
 document.getElementById("constructoLink").addEventListener("click", (e) => {
   e.preventDefault();

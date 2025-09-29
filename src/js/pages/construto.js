@@ -1,7 +1,7 @@
-import "/src/css/construto.css";
+import "/src/css/pages/construto.css";
 import "/src/global.css";
-import { renderPage } from "../utils/renderHTML";
-import construtoHtml from "../pages/construto.html?raw";
+import { renderPage } from "../../utils/renderHTML";
+import construtoHtml from "/src/pages/construto.html?raw";
 
 export function loadConstruto() {
   renderPage(construtoHtml);
@@ -34,8 +34,8 @@ export function loadConstruto() {
     const x = e.pageX - container.offsetLeft;
     const y = e.pageY - container.offsetTop;
 
-    const walkX = x - startX
-    const walkY = y - startY
+    const walkX = x - startX;
+    const walkY = y - startY;
     container.scrollLeft = scrollLeft - walkX;
     container.scrollTop = scrollTop - walkY;
   });
