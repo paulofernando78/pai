@@ -31,7 +31,7 @@
   width: 500px;
   height: 500px;
   border-radius: 50%;
-  border: 1px solid white;
+  box-shadow: 1px 1px 20px var(--blue-4);
   padding: 5px;
   background: radial-gradient(var(--blue-1), var(--blue-4));
   display: grid;
